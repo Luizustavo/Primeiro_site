@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url(../fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f2edf3;
+}
+
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulopag {
+    color: #7B1FA2;
+    margin: auto;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 58px;
+    margin: 40px;
+}
+
+
+#futebol, #basquete, #boxe, #tenis {
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.videos {
+    min-width: 45%;
+    max-width: 100%;
+    min-height: 45%;
+    height: 400px;
+    margin-left: 3%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #BDBDBD;
+
+}
+
+
+li {
+    margin: 0 30px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #212121;
+    color: #E1BEE7;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+hr {
+    border-width: 1px;
+    border-color: #212121;    
+}
