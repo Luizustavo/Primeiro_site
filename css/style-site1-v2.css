@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulopag {
+    color: blue;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 58px;
+    margin: 50px;
+}
+
+.menu {
+    color: rgb(#8B05FA);
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 100px;
+    margin-bottom: 40px;
+}
+
+#futebol, #basquete, #boxe, #tenis {
+    text-align: center;
+    font-family: monospace;
+}
+
+.videos {
+    min-width: 45%;
+    max-width: 100%;
+    min-height: 45%;
+    height: 400px;
+    margin-left: 3%;
+}
